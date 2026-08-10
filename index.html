@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Social Media Platform</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="create-post">
+            <h2>Create a Post</h2>
+
+            <form id="postForm">
+                <textarea id="postContent"
+                    placeholder="What's on your mind?"
+                    required></textarea>
+
+                <button type="submit">Post</button>
+            </form>
+        </section>
+
+        <section class="feed">
+            <h2>Latest Posts</h2>
+
+            <div id="posts">
+                <!-- Posts will appear here -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Social Media Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
